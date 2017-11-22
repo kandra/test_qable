@@ -1,0 +1,20 @@
+site: http://www.latina.pe
+
+# Supported options:
+# selenium: requires geckodriver https://github.com/DevicoSolutions/geckodriver-helper
+# selenium_chrome, selenium_chrome_headless: requires chromedriver https://github.com/flavorjones/chromedriver-helper
+# webkit: requires capybara-webkit https://github.com/thoughtbot/capybara-webkit
+# driver: selenium_chrome_headless
+
+browsers:
+  - chrome
+  - firefox
+  # - edge
+  # - ie
+  # - safari
+
+# Set this to be able to use Edge and IE with a remote server, this should be the full Selenium Hub URL, e.g: http://<CI-HOST>:4444/wd/hub
+remote_ci_url:
+
+paths:
+  home: /
